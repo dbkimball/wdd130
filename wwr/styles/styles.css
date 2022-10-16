@@ -1,9 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Rock+Salt&display=swap');
+
 div{
     max-width: 1600px;
     margin:0 auto;
-}
-nav a{
-    text-align:center;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -15,8 +14,15 @@ nav a{
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 body{
 	background-color:#8ecae6;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
 	background-color:#034363;
@@ -25,6 +31,9 @@ header{
 nav a{
     color:white;
     text-decoration: none;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    text-align: center;
+    padding: 35px;
 }
 nav a:hover{
 	background-color:#8ecae6;
@@ -32,11 +41,29 @@ nav a:hover{
 }
 .home-title{
     color: white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    text-align: center;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    margin: 0;
+}
+h4 {
+    text-align: center;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    margin: 0;
 }
 .book, .join{
     background-color:rgb(3, 102, 3);
     color: white;
     text-decoration: none;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px:
 }
 .book:hover, .join:hover{
     background-color:tan;
@@ -47,17 +74,25 @@ nav a:hover{
     background-color:whitesmoke;  
 }
 .msg{
-    background-color:white; 
+    background-color:white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black;
 }
 .msg p{
     color: black;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color:#034363;
     color: white;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size:1.2em;
@@ -72,9 +107,22 @@ footer a{
 footer a:hover{
     color: white;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .logo{
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .icon{
 	width:80px;
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid white;
 }
