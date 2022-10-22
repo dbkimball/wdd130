@@ -1,0 +1,22 @@
+.title-img{
+    max-width: 100%;
+    min-width: 100%;
+}
+.cards {
+    max-width: 100%;
+    min-width: 100%;  
+    background-color: gray;
+    justify-content: center;
+}
+.card-img {
+    border: solid black;
+    border-width: 15px;
+    border-radius: 500px;
+    width: 15%;
+    height: 15%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
