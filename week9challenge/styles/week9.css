@@ -1,0 +1,76 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+.rounded{
+    border-top-left-radius:10%; 
+    border-top-right-radius: 10%;
+}
+div{
+    background-color: white;
+    max-width: 300px;
+    margin: auto;
+}
+#whitespace{
+    padding-bottom: 30px;
+}
+h1{
+    font-size: small;
+    color: blue;
+    padding-top: 10%;
+    padding-bottom:0%;
+}
+
+h2{
+    font-size: xx-large;
+    padding-top: 0%;
+}
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 300px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    background-color: blue;
+    max-width: 300px;
+    margin-left: 42%;
+    border-bottom-left-radius:10%; 
+    border-bottom-right-radius: 10%;
+
+}
+.read{
+    min-width: 99%;
+    min-height: 105px;
+    border-right: white 0.5px solid;
+    background-color: blue;
+    margin: auto;
+    border-bottom-left-radius:10%; 
+    
+}
+.views{
+    min-width: 99%;
+    min-height: 105px;
+    background-color: blue;
+    margin: auto;
+    
+}
+.comments{
+    min-width: 99%;
+    min-height: 105px;
+    border-left: white 0.5px solid;
+    background-color: blue;
+    margin: auto;
+    border-bottom-right-radius: 10%;
+    }
+.footertext{
+    color: white;
+    font-size: large;
+    text-align: center;
+    padding-top: 20%;
+}
+.mini{
+    font-size:x-small;
+}
