@@ -138,6 +138,9 @@ main .msg p{
     grid-column: 2/3;
     grid-row: 1/2;
 }
+.shoeing-msg h2{
+    background-color: #1B5e88;
+}
 .shoeing-list{
     text-align: left;
     font-family: 'Nunito', 'Helvetica', sans-serif;
@@ -161,6 +164,9 @@ main .msg p{
     text-align: center;
     grid-column: 1/2;
     grid-row: 3/4;
+}
+.dentist-msg h2{
+    background-color: #1B5e88;
 }
 .dentist-list{
     text-align: left;
