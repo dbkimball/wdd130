@@ -68,6 +68,7 @@ nav a:hover{
     margin-bottom: -1%;
     background-color: #1b5e88;
 }
+/* page 2 CSS */
 .page2-msg{
     text-align: center;
     color: white;
@@ -88,7 +89,6 @@ nav a:hover{
     font-size: medium;
     margin-top: 100%;
     background-color: #1b5e88;
-
 }
 main{
     display: grid;
@@ -112,7 +112,6 @@ main .msg p{
     font-family: 'Nunito', 'Helvetica', sans-serif;
     font-size: x-large;
 }
-
 .page2-grid{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -168,6 +167,7 @@ main .msg p{
     font-family: 'Nunito', 'Helvetica', sans-serif;
     font-size: medium;
 }
+/* footer CSS for all pages*/
 footer{
     background-color:#1B5E88;
     color: white;
