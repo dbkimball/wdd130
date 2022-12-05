@@ -141,7 +141,7 @@ main .msg p{
 .shoeing-list{
     text-align: left;
     font-family: 'Nunito', 'Helvetica', sans-serif;
-    font-size: medium;
+    font-size: large;
 }
 #dentist-images{
     grid-column: 2/3;
@@ -165,7 +165,7 @@ main .msg p{
 .dentist-list{
     text-align: left;
     font-family: 'Nunito', 'Helvetica', sans-serif;
-    font-size: medium;
+    font-size: large;
 }
 /* footer CSS for all pages*/
 footer{
