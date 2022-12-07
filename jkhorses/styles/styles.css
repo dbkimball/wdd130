@@ -112,7 +112,7 @@ main .msg p{
     font-family: 'Nunito', 'Helvetica', sans-serif;
     font-size: x-large;
 }
-.page2-grid{
+.page-grid{
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 20% 50%;
@@ -173,6 +173,61 @@ main .msg p{
     font-family: 'Nunito', 'Helvetica', sans-serif;
     font-size: large;
 }
+
+/* Page 3 CSS */
+.page3-msg{
+    text-align: center;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #1b5e88;
+}
+.page3p{
+    text-align: center;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-size: large;
+    margin-top: -100%;
+    background-color: #1b5e88;
+}
+#page3-img{
+    max-height: 800px;
+    max-width: 1200px;
+}
+#hoofcare-images{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 5%;
+    margin: 0 auto;
+}
+.hoof-msg{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 5%;
+}
+.hoofcare{
+    text-align: left;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-size: medium;  
+}
+#dental-images{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 0 auto;
+    padding: 5%;
+}
+.dentalcare-msg{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    padding: 5%;
+}
+.dentalcare{
+    text-align: left;
+    font-family: 'Nunito', 'Helvetica', sans-serif;
+    font-size: medium;  
+}
+
 /* footer CSS for all pages*/
 footer{
     background-color:#1B5E88;
