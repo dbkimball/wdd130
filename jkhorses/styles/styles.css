@@ -68,7 +68,7 @@ nav a:hover{
     margin-bottom: -1%;
     background-color: #1b5e88;
 }
-/* page 2 CSS */
+/* CSS for page 2 */
 .page2-msg{
     text-align: center;
     color: white;
@@ -227,6 +227,25 @@ main .msg p{
     font-family: 'Nunito', 'Helvetica', sans-serif;
     font-size: medium;  
 }
+
+/* CSS for contactus page */
+#sunset-img{
+   margin-left: 28%;
+}
+.contact-info{
+    margin-top: -75%;
+}
+.contactus{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+    margin-top: 0%;
+}
+.map{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
 
 /* footer CSS for all pages*/
 footer{
